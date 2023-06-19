@@ -31,6 +31,6 @@ app.post('/productos', async (req, res) => {
   }
 });
 
-app.listen(3000, () => {
-  console.log('Escuchando en puerto 3000');
+app.listen(4000, () => {
+  console.log('el server esta corriendo puerto 4000');
 });
